@@ -1,5 +1,5 @@
 # Better Toasts
-Makes Powercord's default toasts a bit spicer. 
+Makes Powercord's default toasts a bit spicier. 
 
 ![PreviewGIF](./Previews/Hs96SHlrzO.gif)
 
