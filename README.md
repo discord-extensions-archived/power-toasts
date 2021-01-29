@@ -1,5 +1,6 @@
 # Better Toasts
 Makes Powercord's default toasts a bit spicer. 
+
 ![PreviewGIF](./Previews/Hs96SHlrzO.gif)
 
 # Installation & Updating
