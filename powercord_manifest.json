@@ -1,0 +1,9 @@
+{
+    "name": "Nicer Powercord Toasts",
+    "description": "Toaster ovens make toast, y'know?",
+    "version": "1.0.0",
+    "author": "LuckFire#48000",
+    "theme": "index.scss",
+    "consent": "false",
+    "license": "MIT"
+}
