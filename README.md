@@ -1,11 +1,6 @@
 # Better Toasts
 Makes Powercord's default toasts a bit spicer. 
-- Fun Fact: Toaster ovens make toast, y'kow?
-
-# Previews
 ![PreviewGIF](./Previews/Hs96SHlrzO.gif)
-![PreviewPNG](./Previews/ZveRRJy23I.png)
-![PreviewPNG](./Previews/ag0SNeHSEk.png)
 
 # Installation & Updating
 For installation, go to **Themes -> Open a CMD / Powershell / Terminal / Gitbash** in the folder, and enter the following:
@@ -17,3 +12,7 @@ Since Powercord's updater is currently broken, you have to update the theme manu
 ```
 git pull
 ```
+
+# More Previews
+![PreviewPNG](./Previews/ZveRRJy23I.png)
+![PreviewPNG](./Previews/ag0SNeHSEk.png)
