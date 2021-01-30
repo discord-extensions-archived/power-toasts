@@ -1,22 +1,17 @@
-#app-mount {
-    .powercord-toast {
-        &#missing-entities-notify  {
-            height: 80px;
+#app-mount .powercord-toast#missing-entities-notify {
+    height: 80px;
 
-            .header {
-                [aria-label="Danger: No missing themes were found - try again later!"] .icon {
-                    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="%23F04747" width="18px" height="18px"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z"/></svg>') 0 0/50px 50px no-repeat;
-                }
-
-                span {
-                    margin-top: 11px;
-                }
-            }
-
-            .progress-2XXRYo {
-                position: absolute;
-                bottom: 0;
-            }
+    .header {
+        [aria-label="Danger: No missing themes were found - try again later!"] .icon {
+            background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="%23F04747" width="18px" height="18px"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z"/></svg>') 0 0/50px 50px no-repeat;
         }
+
+        span {
+            margin-top: 11px;
+        }
+    }
+
+    .progress-2XXRYo {
+        margin-top: auto;
     }
 }
