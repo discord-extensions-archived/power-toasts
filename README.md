@@ -10,7 +10,7 @@ Makes Powercord's default toasts a bit spicier.
 
 ![PreviewGIF](./Previews/Hs96SHlrzO.gif)
 
-# Installation Updating
+# Installation
 For installation, go to **Themes -> Open a CMD / Powershell / Terminal / Gitbash** in the folder, and enter the following:
 ```
 git clone https://github.com/LuckFire/Power-Toasts
