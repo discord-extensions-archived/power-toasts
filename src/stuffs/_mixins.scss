@@ -1,9 +1,0 @@
-@mixin buttonz($button, $button-hover, $text) {
-    opacity: 1;
-    background-color: $button;
-    color: $text;
-
-    &:hover {
-        background-color: $button-hover;
-    }
-}

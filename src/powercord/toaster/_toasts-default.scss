@@ -1,0 +1,92 @@
+#app-mount .powercord-toast {
+    background-color: var(--toast-bg);
+    width: 37%;
+    border: solid 1px var(--toast-border);
+    backdrop-filter: blur(5px);
+    box-shadow: var(--toast-shadow);
+    padding-top: 5px;
+
+    .header {
+        background-color: transparent;
+        box-shadow: none;
+
+        div .icon {
+            background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" fill="%237289DA" width="24"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M11 7h2v2h-2zm0 4h2v6h-2zm1-9C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"/></svg>') 0 0/50px 50px no-repeat;
+            color: transparent;
+            padding: 15px;
+            margin-left: -10px;
+            margin-top: -5px;
+            margin-bottom: -25px;
+
+            img {
+                visibility: hidden;
+            }
+        }
+
+        span {
+            margin-top: 2px;
+        }
+
+        .dismiss {
+            background: var(--close-icon);
+            color: transparent;
+            opacity: 1;
+        }
+    }
+
+    .contents {
+        background-color: transparent;
+
+        .inner {
+            background-color: transparent;
+            color: var(--text-darker);
+            font-weight: 600;
+            border: none;
+            max-width: 85%;
+            margin-top: -32px;
+            margin-bottom: 10px;
+            margin-right: auto;
+            margin-left: 50px;
+        }
+    }
+
+    .buttons {
+        width: 50%;
+        margin-left: auto;
+        margin-right: 1px;
+        
+        button {
+            border-radius: 3px;
+        }
+
+        // Grey Button(s)
+        .colorGrey-2DXtkV {
+            @include buttonz(#707A87, #646D7A, #fff);
+        }
+
+        // Green Button(s)
+        .colorGreen-29iAKY {
+            order: 1;
+            @include buttonz(#43B581, #3CA374, #fff);
+        }
+
+        // Red Button(s)
+        .colorRed-1TFJan {
+            @include buttonz(#F04747, #D84040, #fff);
+        }
+
+        // Blurple Button(s)
+        .colorBrand-3pXr91 {
+            @include buttonz(#7289DA, #677BC4, #fff);
+        }
+    }
+
+    .progress-2XXRYo {
+        background-color: transparent !important;
+        border-top-left-radius: 0;
+
+        .progressBar-3u8FBM {
+            background: linear-gradient(36deg, #1D976C, #93F9B9) !important;
+        }
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "name": "Power Toasts",
+    "description": "Toaster ovens make toast, y'know?",
+    "version": "1.0.3",
+    "author": "LuckFire#48000",
+    "theme": "index_vizality.scss",
+    "consent": "false",
+    "license": "MIT"
+}

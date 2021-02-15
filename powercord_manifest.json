@@ -3,7 +3,7 @@
     "description": "Toaster ovens make toast, y'know?",
     "version": "1.0.3",
     "author": "LuckFire#48000",
-    "theme": "index.scss",
+    "theme": "index_powercord.scss",
     "consent": "false",
     "license": "MIT"
 }

@@ -1,0 +1,43 @@
+#app-mount .vz-toast-container [id] {
+    background-color: var(--toast-bg);
+    width: 35%;
+    max-width: 35%;
+    height: auto;
+    border: solid 1px var(--toast-border);
+    backdrop-filter: blur(5px);
+    box-shadow: var(--toast-shadow);
+    padding-top: 11px;
+
+    .vz-toast-header {
+        div .vz-icon-wrapper {
+            background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" fill="%237289DA" width="24"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M11 7h2v2h-2zm0 4h2v6h-2zm1-9C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"/></svg>') 0 0/50px 50px no-repeat;
+            color: transparent;
+            padding: 5px;
+            margin-top: -5px;
+            margin-right: -7px;
+            margin-bottom: -25px;
+            margin-left: -6px;
+    
+            svg {
+                visibility: hidden;
+            }
+        }
+    }
+
+    .vz-toast-header-content {
+        .vz-toast-header-title {
+            margin-top: 6px;
+        }
+
+        .vz-toast-header-message {
+            color: var(--text-darker);
+            font-weight: 600;
+            font-size: 14px;
+            padding-top: 1px;
+        }
+    }
+
+    .vz-toast-footer .vz-toast-buttons button { 
+        width: 128px;
+    }
+}
