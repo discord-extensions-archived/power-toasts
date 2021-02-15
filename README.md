@@ -6,7 +6,7 @@
 </p>
 
 # Power Toasts
-Makes Powercord's default toasts a bit spicier. 
+Makes Powercord & Vizality's default toasts a bit spicier.
 
 ![PreviewGIF](./assets/Hs96SHlrzO.gif)
 
